@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Be+Vietnam+Pro:wght@300;600;700&display=swap');
+
+/*
+    font-family: 'Allura', cursive;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+*/
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+}
