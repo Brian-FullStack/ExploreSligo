@@ -13,19 +13,40 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
-                <li><a href="#">Page 4</a></li>
+        <!--Navbar is made up of:
+        a list,
+        a container,
+        a link to other pages,
+        styled using flex color,
+
+        -->
+        <nav class="navContainer">
+            <ul class="navList">
+                <li class="navItem">
+                    <a class="navLink" href="#">Home</a>
+                </li>
+                <li class="navItem">
+                    <a class="navLink" href="#">Page 2</a>
+                </li>
+                <li class="navItem">
+                    <a class="navLink" href="#">Page 3</a>
+                </li>
+                <li class="navItem">
+                    <a class="navLink" href="#">Page 4</a>
+                </li>
             </ul>
         </nav>
 
         <div>
-            Hero Image
-            <h1>Explore</h1>
+            <div class="container">
+                <div class="heroImage">
+                    <img src="/hero-image.jpg" alt="">
+                    <span class="heroText">Explore</span>
+                </div>
+            </div>
         </div>
+
+
 
         <main>
             <section>

@@ -6,6 +6,8 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 */
 
+
+
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 300;
@@ -13,4 +15,48 @@ body {
 
 h1 {
     font-size: 84px;
+}
+
+/*Navigation*/
+
+.navContainer {
+    height: 5rem;
+
+}
+
+.navList {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navItem {
+    margin-right:  2rem;
+    color: red;
+    list-style: none;
+}
+
+.navLink {
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #0d1821;
+}
+
+.container {
+    width: 100vw;
+    height: 60vh;
+    background-color: #0d3964;
+
+    
+}
+
+.heroImage {
+    object-fit: cover;
+}
+
+.heroText { 
+    font-size: 200px;
+    font-weight: 700;
 }
