@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Be+Vietnam+Pro:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Be+Vietnam+Pro:wght@300;600;700&family=Playfair+Display:wght@400;500&display=swap');
 
 /*
     font-family: 'Allura', cursive;
 
     font-family: 'Be Vietnam Pro', sans-serif;
+
+    font-family: 'Playfair Display', serif;
 */
 
 * {
@@ -97,4 +99,50 @@ h1 {
     color: #fff;
     font-weight: 300;
     font-size: 10px;
+}
+
+/* Section One HomePage*/
+
+.outThereSection {
+    padding-top: 5rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 3rem;
+    text-shadow: 2px 2px 10px #525d64;
+}
+
+.cursive {
+    font-family: 'Allura', cursive;
+    font-size: 62px;
+    color: #ceba47;
+    text-shadow: 2px 2px 8px #ceba47;
+}
+
+.expContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+.iconGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconGroup span {
+    font-family: 'Allura', cursive;
+    font-size: 62px;
+    margin-top: 2rem;
+}
+
+.iconGroup i {
+    font-size: 62px;
+    color: #525d64;
 }
