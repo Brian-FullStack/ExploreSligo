@@ -6,6 +6,11 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 
 body {
@@ -21,7 +26,10 @@ h1 {
 
 .navContainer {
     height: 5rem;
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: transparent;
 }
 
 .navList {
@@ -41,22 +49,52 @@ h1 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: #0d1821;
+    color: #fff;
 }
 
 .container {
     width: 100vw;
-    height: 60vh;
-    background-color: #0d3964;
-
-    
+    height: 70vh;
+    background-image: url(/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -2;
 }
 
-.heroImage {
-    object-fit: cover;
+.overlay {
+    background-color: rgba(88, 105, 116, 0.6);
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .heroText { 
     font-size: 200px;
     font-weight: 700;
+    color: #fff;
+    text-shadow: 4px 4px 8px #525d64;;
+}
+
+
+.creatorTag {
+    position: absolute;
+    rotate: 90deg;
+    bottom: 100px;
+    left: -65px;
+}
+
+#tagline {
+    color: #fff;
+    font-weight: 300;
+    font-size: 10px;
 }
