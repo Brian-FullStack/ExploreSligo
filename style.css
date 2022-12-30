@@ -32,6 +32,8 @@ h1 {
     align-items: center;
     justify-content: flex-end;
     background-color: transparent;
+    position: sticky;
+    top: 1rem;
 }
 
 .navList {
