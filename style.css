@@ -148,3 +148,42 @@ h2 {
     font-size: 62px;
     color: #525d64;
 }
+
+
+/* Section 2 Home page */
+
+.discoverParagraph {
+    width: 80%;
+    font-size: 24px;
+    margin: 2rem auto;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    width: 75%;
+    margin: 3rem auto;
+}
+
+.card {
+    border: 1px solid #525d64;
+    border-radius: 10px;
+    height: 15rem;
+}
+
+.cardImage {
+    background-color: #525d64;
+    border-radius: 10px 10px 0 0;
+    height: 12rem;
+    margin-bottom: auto;
+    position: relative;
+}
+
+.fa-heart {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+}
