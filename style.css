@@ -43,7 +43,7 @@ h1 {
 }
 
 .navItem {
-    margin-right:  2rem;
+    margin-right: 2rem;
     color: red;
     list-style: none;
 }
@@ -82,11 +82,12 @@ h1 {
     justify-content: center;
 }
 
-.heroText { 
+.heroText {
     font-size: 200px;
     font-weight: 700;
     color: #fff;
-    text-shadow: 4px 4px 8px #525d64;;
+    text-shadow: 4px 4px 8px #525d64;
+    ;
 }
 
 
@@ -177,8 +178,16 @@ h2 {
     background-color: #525d64;
     border-radius: 10px 10px 0 0;
     height: 12rem;
+    width: auto;
     margin-bottom: auto;
     position: relative;
+}
+
+.cardImage img {
+    width: 240px;
+    height: 191px;
+    border-radius: 10px 10px 0 0;
+    object-fit: fill;
 }
 
 .fa-heart {
